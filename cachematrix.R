@@ -24,7 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
     get <- function() {
         x
     }
-        
+     
+    ## sets the matrix m   
     setsolve <- function(value){
          m <<- value
     }
