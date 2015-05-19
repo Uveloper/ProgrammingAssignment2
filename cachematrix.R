@@ -1,13 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+##The first function, makeCacheMatrix creates a special "matrix", which is really 
+## a list containing a function to
 
-## Write a short comment describing this function
 ## 1. set the value of the matrix x  
 ## 2. get the value of the matrix x 
 ## 3. set the value of m using solve 
 ## 4. get the value of m that was solve 
 ## 5. returns a list of functions
-
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -41,8 +39,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-## Return a matrix that is the inverse of 'x'
+## The second function returns a inverse matrix using the solve function
 
 cacheSolve <- function(x, ...) {
 
